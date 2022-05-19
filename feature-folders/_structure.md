@@ -1,5 +1,3 @@
-
-
 Our journey through the evolution of the architecture of one of our apps : Mindset
 
 **TBD**: links to separate articles
@@ -144,3 +142,9 @@ Once the baseline is in place, what is happening over the life of the project is
   o Maybe someone asks what those tests mean ? (newer joiner) … and awesome, a learning opportunity to talk about architecture … also maybe an opportunity to document more clearly your rules ?
   o Maybe there’s an agreement that indeed this is legit, and we just add a rule … congrats you have just “documented” + “enforced” a decision
   o Or maybe there’s an opportunity to refactor a little bit to make the test pass
+
+## Some other benefits from those changes
+
+- automation
+- looking at test coverage ... we get reports per features ... telling us where we have possibly less coverage ... to balance with how critical / risk / cost of the feature
+-
