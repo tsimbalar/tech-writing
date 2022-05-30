@@ -16,9 +16,20 @@ What you can see here is :
 
 This is not the end of the world, but this came as a surprise. When we moved files around to group them by feature, our assumption was that our features were properly isolated from each other ... and it turns out they weren't. Moving actually **made the dependency more apparent**.
 
-## Why caring about feature isolation
+## Why should I care about feature isolation ?
 
 We want our feature code to be isolated from other features... but why ?
+
+Feature code is the code that supports the use cases of a functionality. This can include for instance pages, individual widgets, `BLoC`s to support the possible use cases, interaction with the backend-counterpart of the functionlity, types that we pass around as part of the functionality.
+
+What we'd like is to be able to move as quickly (or more!) on our 10th feature as we did on the very first one. We want to make it available as soon as possible so our users can try it and we can start gathering feedback. Once the codebase reaches a certain size, this is not so easy.
+
+By more strongly 
+
+low level of abstraction
+Sandbox
+Friction between features
+High cohesion within a single feature / Low coupling between different features.
 
 ## Detecting feature coupling
 
