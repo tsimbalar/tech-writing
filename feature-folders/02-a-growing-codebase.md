@@ -117,13 +117,15 @@ If we try something similar in the software world, we are talking about grouping
 
 By doing so we are moving from **Layers** ...
 
-TODO: image layers
+![horizontal layers](assets/layers.png)
 
 ... to **Slices**
 
-TODO: image slices
+![vertical slices](assets/slices.png)
 
 Inside a given slice, you'll still find some elements that belong to your traditional layers (UI, data etc), but this becomes an "implementation detail" of each feature.
+
+![slices still contain components from various layers](assets/slices-with-layers-inside.png)
 
 ## Moving toward Slices with Feature folders
 
@@ -153,6 +155,8 @@ This is pretty manual, and it doesn't need to be perfect. At this point, what we
 - see the list of features emerge little by little
 
 When we did this on our codebase, what really became more appearant is that **not all features are alike**.
+
+![slices are not uniform](assets/slices-not-uniform.png)
 
 - some feature folders ended up with a lots of files, and other had few
 - some features have no real UI
